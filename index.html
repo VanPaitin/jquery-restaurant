@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Restaurant Jquery</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-  <div id="content"></div>
+  <div id="content">
+    <div class="navbar">
+      <ul class="tabs">
+        <li><a href="" id="home" class="active">Home</a></li>
+        <li><a href="" id="contact">Contact</a></li>
+        <li><a href="" id="menu">Menu</a></li>
+      </ul>
+    </div>
+    <div id="home-content" class="tabcontent">
+      <h3>Welcome</h3>
+      <p>This is the homepage of the best restaurant in the world
+      There is nothing much to this restaurant except that it comes in handy when you are famished or hungry</p>
+    </div>
+
+    <div id="contact-content" class="tabcontent">
+      <h3>Make sure to contact me</h3>
+      <p>You can contact me in the following places</p>
+      <ul>
+        <li><a href="https://github.com/andela-mpitan">Github page</a></li>
+        <li><a href="https://twitter.com/Van_Paitin">Twitter</a></li>
+        <li><a href="https://www.facebook.com/mayowa.pitan">Facebook</a></li>
+      </ul>
+    </div>
+
+    <div id="menu-content" class="tabcontent">
+      <h3>Menu</h3>
+      <p>Currently, there are no menu items</p>
+    </div>
+  </div>
+  <footer>
+    Lala, Feeding the world<br>&copy; EngineerLash
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="scripts/application.js"></script>
 </body>
